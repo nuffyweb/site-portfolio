@@ -89,7 +89,7 @@ gulp.task('styles', function() {
 gulp.task('images', function() {
     return gulp.src(path.frontend.img, { since: gulp.lastRun('images') })
         .pipe(newer(path.public.img))
-			  .pipe(cache(tinypng('YOUR API')))
+			  //.pipe(cache(tinypng('YOUR API')))
 				/*.pipe(imageop())
 				.pipe(imagemin([
 					imagemin.jpegtran({
