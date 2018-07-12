@@ -1,0 +1,33 @@
+# osx specific files
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+._*
+*.swo
+*.swn
+*.psd
+resource/
+
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# Logs and temp files
+[Ll]ogs/
+[Tt]emp/
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+/frontend/
+/node_modules/
+/**/_backstage
+/**/package-lock.json
+/**/Thumbs.db
+/**/*.DS_Store
